@@ -1,0 +1,19 @@
+{
+  "name": "discord-zip-webhook-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Administrator-only Discord ZIP extraction bot using one server.js file.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "yauzl": "^3.4.0"
+  }
+}
